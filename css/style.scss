@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    
+    li{
+        list-style: none;
+        padding: 10px;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: red;
+            }
+        }
+        
+    }
+
+}
+   
