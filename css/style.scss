@@ -18,6 +18,10 @@
             color: blue;
             padding: 10px;
         }
+        img{
+            width: 10px;
+            height: 10px;
+        }
         h3{
             left: 10px;
             margin-bottom: 40px;
@@ -45,8 +49,12 @@
                 background-color: blue;
                 color: white;
                 margin: 10px;
-                border: none;
+                
                 margin-left: 40px;
+                &:hover{
+                    color: blue;
+                    background-color: white;
+                }
                 
             }  
             .btn-2{
@@ -57,8 +65,11 @@
                 background-color: white;
                 color: black;
                 margin: 10px;
-                
                 margin-left: 40px;
+                &:hover{
+                    color: white;
+                    background-color: blue;
+                }
 
             }
             img{

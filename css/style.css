@@ -21,6 +21,11 @@
   padding: 10px;
 }
 
+.content img {
+  width: 10px;
+  height: 10px;
+}
+
 .content h3 {
   left: 10px;
   margin-bottom: 40px;
@@ -48,8 +53,12 @@
   background-color: blue;
   color: white;
   margin: 10px;
-  border: none;
   margin-left: 40px;
+}
+
+.content .btn-1:hover {
+  color: blue;
+  background-color: white;
 }
 
 .content .btn-2 {
@@ -61,6 +70,11 @@
   color: black;
   margin: 10px;
   margin-left: 40px;
+}
+
+.content .btn-2:hover {
+  color: white;
+  background-color: blue;
 }
 
 .content img {
